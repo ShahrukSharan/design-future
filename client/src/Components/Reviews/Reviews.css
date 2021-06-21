@@ -1,0 +1,41 @@
+.reviews {
+    background: #F8F9FA;
+}
+
+.carouselContainer {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    overflow: hidden;
+  }
+  .carouselItem {
+    width: 100%;
+    height: 100%;
+    animation: fade 1.5s;
+    display: none;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    display: block;
+  }
+  .prev, .next {
+    position: absolute;
+    top: 49%;
+    cursor: pointer
+  }
+  .prev { left: 10px; }
+  .next { right: 10px; }
+  .slide1 { background-color: #d8e2dc; }
+  .slide2 { background-color: #dee3e9; }
+  .slide3 { background-color: #babcbe; }
+  .slide4 { background-color: #bbbbc2; }
+
+  @keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+  }

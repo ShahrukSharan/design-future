@@ -1,0 +1,31 @@
+.login {
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-logo {
+    margin-left: 50%;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.facebook-login, .google-login {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.login-button {
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 30%;
+    padding-left: 20px;
+    display: block;
+    width: 370px;
+}
+
+.login-button:hover {
+    cursor: pointer;
+    background: rgb(199, 217, 248);
+}

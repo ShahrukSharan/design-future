@@ -1,0 +1,46 @@
+.Services-grid {
+    display: flex;
+}
+
+.Service {
+    margin-right: 30px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5%;
+    padding: 15px;
+    box-shadow: 0  5px 10px rgba(154, 160, 185, 0.527),
+    0 15px 40px rgba(222, 224, 231, 0.781);
+}
+
+.Service:hover {
+    box-shadow: 0  5px 10px rgba(139, 148, 182, 0.308),
+    0 15px 40px rgba(148, 153, 175, 0.192);
+    cursor: pointer;
+}
+
+.Service-image {
+    height: 100px;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 991px) {
+    .Services-grid {
+        display: grid;
+        margin-left: 19%;
+    }
+    .Service {
+        margin-bottom: 25px;
+        width: 300px;
+    }
+}
+
+@media screen and  (min-width : 768px) and (max-width : 991px)  {
+    .Services-grid {
+        display: grid;
+        margin-left: 27%;
+    }
+    .Service {
+        margin-bottom: 25px;
+        width: 300px;
+    }
+}

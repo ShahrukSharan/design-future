@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+.service-body {
+    background: #ffff;
+}
+
+.Services-container {
+    padding: 0 5%;
+    margin-top: 15px;
+    background: #ffff;
+}
+
+.Services-title {
+    font-family:  'Noto Sans JP', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+
+.serviceBtn {
+    padding: 3px 10px;
+    background: #130f40;
+    color: white;
+}

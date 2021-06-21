@@ -1,0 +1,9 @@
+.inputField {
+    margin-top: 100px;
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+.service-name, .service-description, .service-price, .service-file{
+    width: 50%;
+}

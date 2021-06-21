@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(77, 72, 72);
+}
+
+.navbar {
+    height: 100px;
+}
+
+.navbar-container {
+    padding: 0 2%;
+}
+
+.app-logo {
+    height: 5%;
+    margin-top: 25px;
+}
+
+.nav-item {
+    padding-right: 15px;
+    font-weight: 600;
+}
+
+.signIn:hover {
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 991px) {
+    .app-logo {
+        margin-top: -35px;
+    }
+    .navbar-toggler {
+        margin-top: -60px; 
+    }
+    .mobile-nav {
+        margin-top: -73px;
+        padding-left: 50px;
+        background-color: #F8F9FA;
+        margin-right: 100px;
+        margin-left: 0;
+    }
+    .signIn {
+        margin-left: -40px;
+    }
+  }
